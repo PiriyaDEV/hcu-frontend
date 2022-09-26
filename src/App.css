@@ -1,11 +1,15 @@
 .App {
   text-align: center;
+  font-family: 'IBM Plex Sans Thai', sans-serif !important;
+  font-weight: 500;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@200;300;400;500;600;700&display=swap');
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

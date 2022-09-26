@@ -1,0 +1,93 @@
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+  
+  .page-container {
+    width: 1440px;
+    max-width: 1440px;
+    padding: 0;
+  }
+  
+  .navbar-container {
+    width: 1540px;
+    max-width: 1540px;
+    margin: auto;
+    z-index: 1001;
+  }
+  
+  @media screen and (max-width: 1920px) {
+    .page-container,
+    .navbar-container {
+      width: 1380px;
+      max-width: 1380px;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    .page-container,
+    .navbar-container {
+      width: 1224px;
+      max-width: 1224px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .page-container,
+    .navbar-container {
+      width: 1024px;
+      max-width: 1024px;
+    }
+  }
+  /* @media screen and (max-width: 1024px) {
+    .page-container,
+    .navbar-container {
+      width: 960px;
+      max-width: 960px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  } */
+  @media screen and (max-width: 768px) {
+    .page-container,
+    .navbar-container {
+      width: 620px;
+      max-width: 620px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .page-container,
+    .navbar-container {
+      width: 620px;
+      max-width: 620px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .page-container,
+    .navbar-container {
+      width: 374px;
+      max-width: 374px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .page-container,
+    .navbar-container {
+      width: 355px;
+      max-width: 355px;
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .page-container,
+    .navbar-container {
+      width: 335px;
+      max-width: 335px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .page-container,
+    .navbar-container {
+      width: 280px;
+      max-width: 280px;
+    }
+  }
